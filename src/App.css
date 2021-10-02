@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.App-card {
+  padding: 20px;
+  background-color: black;
 }
 
 .App-logo {
@@ -34,5 +44,20 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (min-width: 768px) {
+  .App {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .App {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .App {
+    width: 1170px;
   }
 }
