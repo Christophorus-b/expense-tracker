@@ -1,3 +1,15 @@
+.change-title-btn{
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: rgb(51, 51, 209);
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 .expense-item {
     display: flex;
     justify-content: space-between;
@@ -16,7 +28,7 @@
     justify-content: flex-start;
     flex: 1;
   }
-  
+ 
   .expense-item h2 {
     color: #3a3a3a;
     font-size: 1rem;
@@ -26,6 +38,7 @@
   }
   
   .expense-item__price {
+    width: 150px;
     font-size: 1rem;
     font-weight: bold;
     color: white;
