@@ -1,6 +1,6 @@
-import ExpenseItem from './components/ExpenseItem';
-import Expenses from './components/Expenses';
-import Card from './components/Card';
+import ExpenseItem from './components/Expenses/ExpenseItem';
+import Expenses from './components/Expenses/Expenses';
+import Card from './components/UI/Card';
 import logo from './logo.svg';
 import './App.css';
 
